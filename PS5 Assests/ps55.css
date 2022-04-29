@@ -1,17 +1,21 @@
-.controller.custom {
-    background: url('base.png'), url('touchpad2.png'), url('org.png');
-    height: 850px;
-    width: 1050px;
-    position: absolute;
-    background-repeat: no-repeat;
+.controller.custom{
+	background: url('name.png'), url('base.png');
+	height:850px;
+	width: 1050px;
+	position: absolute;
+	background-repeat:no-repeat;
+	-webkit-animation: Callback 600s infinite; 
+	-webkit-animation-delay: 0s;  
+    -webkit-animation-fill-mode: forwards; 
+
 }
 
 .custom.disconnected {
-    background: url(disconnected.png);
-    height: 850px;
-    width: 1050px;
-    position: absolute;
-    background-repeat: no-repeat;
+    background: url('name.png'), url('disconnected.png');
+	height:850px;
+	width: 1050px;
+	position: absolute;
+	background-repeat:no-repeat;
 }
 
 .custom.disconnected div {
@@ -304,3 +308,26 @@
         transform: hue-rotate(0deg);
     }
 }
+
+@keyframes Callback {
+    0% {
+        background-position: 108px -600px, 0px 0px;
+    }
+
+    .5% {
+        background-position: 108px -600px, 0px 0px;
+    }
+
+    1% {
+        background-position: 108px -150px, 0px 0px;
+    }
+
+    1.2% {
+        background-position: 108px -150px, 0px 0px;
+    }
+
+    1.7% {
+        background-position: 108px -600px, 0px 0px;
+    }
+
+    10
