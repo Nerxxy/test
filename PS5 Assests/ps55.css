@@ -1,5 +1,5 @@
 .controller.custom {
-    background: url(base.png);
+    background: url('base.png'), url('touchpad2.png'), url('org.png');
     height: 850px;
     width: 1050px;
     position: absolute;
@@ -269,10 +269,10 @@
 
 .custom .touchpad {
     position: absolute;
-    top: 212px;
-    left: 322px;
-    height: 200px;
-    width: 407px;
+    top: 0px;
+    left: 0px;
+    height: 1080px;
+    width: 850px;
     background: url(touchpad2.png);
     background-repeat: no-repeat;
     -webkit-animation: rotation_hue 8.5s infinite linear;
