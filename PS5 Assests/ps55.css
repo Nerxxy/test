@@ -182,26 +182,26 @@
     position: absolute;
     background: url(sticks.png);
     height: 116px;
-    width: 96px;
+    width: 116px;
     background-repeat: no-repeat;
 }
 
 .custom .stick.pressed.left {
-    background-position-x: -95px;
+    background-position-x: -118px;
 }
 
 .custom .stick.pressed.right {
-    background-position-x: -95px;
+    background-position-x: -118px;
 }
 
 .custom .stick.left {
-    top: 2px;
-    left: -9px;
+    top: -4px;
+    left: -19px;
 }
 
 .custom .stick.right {
-    top: 2px;
-    left: 301px;
+    top: -4px;
+    left: 293px;
 }
 
 .custom .meta {
