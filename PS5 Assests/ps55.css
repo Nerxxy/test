@@ -173,8 +173,8 @@
     position: absolute;
     width: 364px;
     height: 100px;
-    top: 438px;
-    left: 321px;
+    top: 445px;
+    left: 330px;
     background-repeat: no-repeat;
 }
 
@@ -182,16 +182,16 @@
     position: absolute;
     background: url(sticks.png);
     height: 116px;
-    width: 116px;
+    width: 96px;
     background-repeat: no-repeat;
 }
 
 .custom .stick.pressed.left {
-    background-position-x: -118px;
+    background-position-x: -95px;
 }
 
 .custom .stick.pressed.right {
-    background-position-x: -118px;
+    background-position-x: -95px;
 }
 
 .custom .stick.left {
